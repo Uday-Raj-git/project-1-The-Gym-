@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Form</title>
+</head>
+<body>
+    <div class="Admission-foorm">
+        <h1> The GyM Admission-foorm</h1>
+        <form action="post">
+            Name: <input type="text" name="firstname" required placeholder="Firstname">
+            <input type="text" name="lastname" required placeholder="Lastname"><br><br>
+            Phone Number: <input type="tel" name="phone" required placeholder="Phone Number"><br><br>
+            Email: <input type="email" name="email" required placeholder="Email"><br><br>
+            Age: <input type="number" name="age" required placeholder="Age"><br><br>
+            Date of Birth: <input type="date" name="dob" required><br><br>
+            Gender:
+            <input type="radio" name="Gender" value="male"/>Male
+            <input type="radio" name="Gender" value="female"/>Female
+            <br>
+            Adress: <br> <textarea name="address" rows="5" cols="30" required placeholder="Address"></textarea><br><br>
+        
+        
+
+    </div>
+    <div id="Membership-detaila">
+        <fieldset>
+            <legend>Membership Detaila</legend>
+            Joining date: <input type="date" name="joiningdate" required><br>
+            Membership Type:
+            <input type="radio" name="membership" value="Basic" required> Basic(Gym)
+            <input type="radio" name="membership" value="Gold" required> Gold (Gym + Cardio)
+            <input type="radio" name="membership" value="Premium" required> Premium (Gym + Cardio + CrossFit)<br>
+            Membership Duration:
+            <select name="duration" required>
+                <option value="1 Month">1 Month</option>
+                <option value="3 Months">3 Months</option>
+                <option value="6 Months">6 Months</option>
+                <option value="12 Months">12 Months</option> 
+                </select><br> <br>
+                Are you interested in any of the following ? <br>
+                <input type="checkbox" name="add-on" value="Yoga">Yoga
+                <input type="checkbox" name="add-on" value="Free PT Trial">Free PT Trial
+                <input type="checkbox" name="add-on" value="Zumba">Zumba
+                <input type="checkbox" name="add-on" value="Piloxing">Piloxing
+                <input type="checkbox" name="add-on" value="Diet Plan">Diet Plan
+        </fieldset>
+        <input type="Submit" value="Submit">
+        <button type="reset"> Reset</button>
+    </div>
+        </form>
+        <a href="index.html">Back</a>
+    
+</body>
+</html>
